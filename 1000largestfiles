@@ -1,0 +1,1 @@
+get-ChildItem -r| sort -descending -property length | select -first 100 name, length
