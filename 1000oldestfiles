@@ -1,0 +1,1 @@
+get-ChildItem -r| sort -descending -property LastWriteTime | select -last 1000 name, LastWriteTime
